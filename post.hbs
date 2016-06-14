@@ -1,0 +1,42 @@
+{{!< default}}
+
+{{#post}}
+
+  <article role="main" class="post {{#if image}}image{{/if}}">
+    <header>
+      <h2>{{title}}</h2>
+      <div class="meta">
+        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        &nbsp;&bull;&nbsp;{{tags prefix=" Filed under "}}
+      </div>
+    </header>
+
+    <section class="post">
+      {{content}}
+    </section>
+
+    <footer class="post-footer">
+    </footer>
+  </article>
+
+  <aside class="pagination">
+    {{#next_post}}
+      <a class="pagination-item read-next" href="{{url}}">
+        <section>
+          <h3>{{title}}</h3>
+           <p>{{excerpt words="14"}}&hellip;</p>
+        </section>
+      </a>
+    {{/next_post}}
+
+    {{#prev_post}}
+      <a class="pagination-item might-enjoy" href="{{url}}">
+        <section>
+          <h3>{{title}}</h3>
+          <p>{{excerpt words="14"}}&hellip;</p>
+        </section>
+      </a>
+    {{/prev_post}}
+  </div>
+
+{{/post}}

@@ -1,0 +1,192 @@
+/*
+ * Global resets
+ */
+html {
+  color: #4a4a4a;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, nav > ul {
+  font-family: "Oswald", sans-serif;
+}
+
+/*
+ * Container
+ */
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+nav {
+  float: left;
+  padding: 3%;
+  width: 32%;
+}
+
+main {
+  float: left;
+  padding: 3%;
+  width: 62%;
+}
+
+
+/*
+ * Header
+ */
+.container > header {
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding-left: 35%;
+  position: relative;
+}
+
+h1 img {
+  display: inline;
+  margin: 0 1rem 0 0;
+}
+
+
+/*
+ * Sidebar
+ */
+nav ul {
+  font-weight: bold;
+  list-style-type: none;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+nav ul li.new-nav-group {
+  margin-top: 1rem;
+}
+
+
+/*
+ * Content
+ */
+.page, .post {
+  margin-bottom: 1rem;
+}
+
+article.post-index {
+  margin-bottom: 4rem;
+}
+
+.page > header, .post > header {
+  margin-bottom: 1rem;
+}
+
+.post header h2, .tag-head h2 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+}
+
+.post-index blockquote, .post blockquote {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  border-color: #b8b8b8;
+}
+
+blockquote mark {
+  background-color: rgba(255, 242, 51, .29804);
+}
+
+article hr {
+  margin: 0.75rem 0;
+}
+
+.meta {
+  color: #b8b8b8;
+  font-size: 0.75rem;
+}
+
+.meta time {
+  display: inline;
+}
+
+.pagination {
+  margin: 0;
+}
+
+.pagination-item p {
+  font-size: 0.875rem;
+}
+
+.pagination-item {
+  border: none;
+}
+
+.pagination-item:hover {
+  text-decoration: none;
+}
+
+.read-next section:before {
+  content: "Read This Next";
+  padding: 4px 10px 5px;
+}
+
+.might-enjoy section:before{
+  content: "You Might Enjoy";
+  padding: 4px 10px 5px;
+}
+
+.post-footer {
+  position: relative;
+  margin: 3rem 0 0 0;
+  padding: 1rem 0 0 0;
+  border-top: #d8d8d8 1px solid;
+}
+
+/*
+ * Themes
+ */
+.red a {
+  color: #ab4642;
+}
+
+.orange a {
+  color: #dc9656;
+}
+
+.green a {
+  color: #a1b56c;
+}
+
+.purple a {
+  color: #ba8baf;
+}
+
+.brown a {
+  color: #a16946;
+}
+
+.blue a {
+  color: #7cafc2;
+}
+
+
+
+
+.row {
+  margin-bottom: 1rem;
+}
+
+input {
+  font-size: 0.875rem;
+}

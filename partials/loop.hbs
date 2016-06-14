@@ -1,0 +1,19 @@
+{{#foreach posts}}
+
+<article class="post-index post">
+  <header>
+    <h2><a href="{{url}}">{{title}}</a></h2>
+    <div class="meta">
+      <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+      &nbsp;&bull;&nbsp;{{tags prefix=" Filed under "}}
+    </div>
+  </header>
+
+  <section class="post">
+    {{content}}
+  </section>
+</article>
+
+{{/foreach}}
+
+{{pagination}}

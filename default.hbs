@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{! Document Settings }}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="{{@blog.url}}/manifest.json">
+
+    {{! Styles & Scripts }}
+    <link href="http://fonts.googleapis.com/css?family=Oswald:700|PT+Sans:400,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{asset "css/poole.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/daring.css"}}" />
+
+    {{! Ghost's own important styles and meta data }}
+    {{ghost_head}}
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="blue {{body_class}} {{#is 'index, tag, author'}}user{{/is}} {{#is 'post'}}{{#unless post.image}}noimage{{/unless}}{{/is}}">
+
+    <div class="container">
+      <header>
+        {{#if @blog.logo}}
+          <h1><img src="{{@blog.logo}}" alt="Blog logo" height="48" width="48">{{@blog.title}}</h1>
+        {{else}}
+          <h1>{{@blog.title}}</h1>
+        {{/if}}
+
+      </header>
+
+      <nav>
+        {{navigation}}
+      </nav>
+      <main>
+        {{{body}}}
+      </main>
+    </div>
+  </body>
+</html>

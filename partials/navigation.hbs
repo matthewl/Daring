@@ -1,0 +1,20 @@
+<ul>
+  {{#foreach navigation}}
+    <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+  {{/foreach}}
+
+  <li class="new-nav-group">
+    {{#if @labs.subscribers}}
+      <a class="subscribe-button" href="{{@blog.url}}/subscribe/">Subscribe</a>
+    {{else}}
+      <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
+    {{/if}}
+  </li>
+
+  {{#if @blog.twitter}}
+    <li class="new-nav-group">
+      <a href="{{twitter_url}}">{{@blog.twitter}}</a>
+    </li>
+  {{/if}}
+</ul>
+
