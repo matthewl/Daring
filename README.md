@@ -2,6 +2,8 @@
 
 Inspired by John Gruber's [Daring Fireball](http://daringfireball.net) link blog, Daring is a similar theme for users of Ghost. It favours text over images and doesn't handle cover images or post images in Ghost.
 
+![Screenshot of Daring](https://s3-eu-west-1.amazonaws.com/daring-ghost-theme/daring-screenshot.png)
+
 Daring is based on the excellent [Poole](http://getpoole.com) by [Mark Otto](https://github.com/mdo).
 
 
