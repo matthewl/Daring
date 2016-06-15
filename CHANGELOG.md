@@ -1,3 +1,7 @@
+## Daring 0.1.3
+
+* Fix bug in main navigation list items
+
 ## Daring 0.1.2
 
 * Add responsive styling
