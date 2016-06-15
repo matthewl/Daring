@@ -33,11 +33,23 @@ nav {
   padding: 3%;
   width: 32%;
 }
+@media (max-width: 48em) {
+  nav {
+    float: left;
+    width: 100%;
+  }
+}
 
 main {
   float: left;
   padding: 3%;
-  width: 62%;
+  width: 65%;
+}
+@media (max-width: 48em) {
+  main {
+    float: left;
+    width: 100%;
+  }
 }
 
 
@@ -47,6 +59,11 @@ main {
 .container > header {
   padding: 2rem 0;
 }
+@media (max-width: 48em) {
+  .container > header {
+    padding: 0.5rem 0;
+  }
+}
 
 h1 {
   font-size: 2.8rem;
@@ -54,21 +71,62 @@ h1 {
   padding-left: 35%;
   position: relative;
 }
+@media (max-width: 48em) {
+  h1 {
+    margin-top: 1rem;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
 
 h1 img {
   display: inline;
   margin: 0 1rem 0 0;
 }
+@media (max-width: 48em) {
+  h1 img {
+    display: block;
+    margin: 0 auto;
+    text-align: center
+  }
+}
 
 
 /*
- * Sidebar
+ * Navigation
  */
 nav ul {
   font-weight: bold;
   list-style-type: none;
   padding-right: 1rem;
   text-align: right;
+}
+@media (max-width: 48em) {
+  nav ul {
+    padding: 1rem 0;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li.new-nav-group {
+    margin: 0;
+  }
+
+  nav ul li:before{
+    color: #b8b8b8;
+    content: "•";
+    margin: 0.5rem;
+  }
+
+  nav ul li:first-child:before{
+    content: "";
+  }
 }
 
 nav ul li.new-nav-group {

@@ -1,3 +1,7 @@
+## Daring 0.1.2
+
+* Add responsive styling
+
 ## Daring 0.1.1
 
 * Tidy up author template
