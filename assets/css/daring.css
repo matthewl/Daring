@@ -3,8 +3,9 @@
  */
 html {
   color: #4a4a4a;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Lora, Helvetica, Arial, sans-serif;
 }
+
 @media (min-width: 48em) {
   html {
     font-size: 14px;
@@ -12,12 +13,12 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 h1, h2, h3, h4, h5, h6, nav > ul {
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 /*
@@ -30,8 +31,8 @@ h1, h2, h3, h4, h5, h6, nav > ul {
 
 nav {
   float: left;
-  padding: 3%;
-  width: 32%;
+  padding: 2%;
+  width: 30%;
 }
 @media (max-width: 48em) {
   nav {
@@ -42,8 +43,8 @@ nav {
 
 main {
   float: left;
-  padding: 3%;
-  width: 65%;
+  padding: 2%;
+  width: 66%;
 }
 @media (max-width: 48em) {
   main {
@@ -66,9 +67,9 @@ main {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: bold;
-  padding-left: 35%;
+  padding-left: 32%;
   position: relative;
 }
 @media (max-width: 48em) {
@@ -152,6 +153,7 @@ article.post-index {
 .post header h2, .tag-head h2 {
   margin-top: 0px;
   margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .post-index blockquote, .post blockquote {
@@ -209,31 +211,4 @@ article hr {
   margin: 3rem 0 0 0;
   padding: 1rem 0 0 0;
   border-top: #d8d8d8 1px solid;
-}
-
-/*
- * Themes
- */
-.red a {
-  color: #ab4642;
-}
-
-.orange a {
-  color: #dc9656;
-}
-
-.green a {
-  color: #a1b56c;
-}
-
-.purple a {
-  color: #ba8baf;
-}
-
-.brown a {
-  color: #a16946;
-}
-
-.blue a {
-  color: #7cafc2;
 }

@@ -1,0 +1,81 @@
+/*
+ * Themes
+ */
+.red a {
+  color: #ab4642;
+}
+
+body.red {
+  border-top: 4px solid #ab4642;
+}
+
+input[type='submit'].button-primary {
+  background-color: #ab4642;
+  border-color: #ab4642;
+}
+
+.orange a {
+  color: #dc9656;
+}
+
+body.orange {
+  border-top: 4px solid #dc9656;
+}
+
+input[type='submit'].button-primary {
+  background-color: #dc9656;
+  border-color: #dc9656;
+}
+
+.green a {
+  color: #a1b56c;
+}
+
+body.green {
+  border-top: 4px solid #a1b56c;
+}
+
+input[type='submit'].button-primary {
+  background-color: #a1b56c;
+  border-color: #a1b56c;
+}
+
+.purple a {
+  color: #ba8baf;
+}
+
+body.purple {
+  border-top: 4px solid #ba8baf;
+}
+
+input[type='submit'].button-primary {
+  background-color: #ba8baf;
+  border-color: #ba8baf;
+}
+
+.brown a {
+  color: #a16946;
+}
+
+body.brown {
+  border-top: 4px solid #a16946;
+}
+
+input[type='submit'].button-primary {
+  background-color: #a16946;
+  border-color: #a16946;
+}
+
+.blue a {
+  color: #7cafc2;
+}
+
+body.blue {
+  border-top: 4px solid #7cafc2;
+}
+
+
+input[type='submit'].button-primary {
+  background-color: #7cafc2;
+  border-color: #7cafc2;
+}

@@ -13,13 +13,14 @@
 
     <link rel="manifest" href="{{@blog.url}}/manifest.json">
 
-    {{! Styles & Scripts }}
-    <link href="http://fonts.googleapis.com/css?family=Oswald:700|PT+Sans:400,700italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="{{asset "css/poole.css"}}" />
-    <link rel="stylesheet" href="{{asset "css/daring.css"}}" />
-
     {{! Ghost's own important styles and meta data }}
     {{ghost_head}}
+
+    {{! Styles & Scripts }}
+    <link href="http://fonts.googleapis.com/css?family=Oswald:700|Lora:400,400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{asset "css/poole.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/daring.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/themes.css"}}" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +29,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="blue {{body_class}} {{#is 'index, tag, author'}}user{{/is}} {{#is 'post'}}{{#unless post.image}}noimage{{/unless}}{{/is}}">
+  <body class="red {{body_class}} {{#is 'index, tag, author'}}user{{/is}} {{#is 'post'}}{{#unless post.image}}noimage{{/unless}}{{/is}}">
 
     <div class="container">
       <header>
