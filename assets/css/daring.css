@@ -8,12 +8,12 @@ html {
 
 @media (min-width: 48em) {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -58,7 +58,7 @@ main {
  * Header
  */
 .container > header {
-  padding: 2rem 0;
+  padding: 0.75rem 0;
 }
 @media (max-width: 48em) {
   .container > header {
@@ -160,7 +160,7 @@ article.post-index {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-style: italic;
-  border-color: #b8b8b8;
+  border-left: 0.15rem solid #b8b8b8;
 }
 
 blockquote mark {
