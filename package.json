@@ -1,4 +1,10 @@
 {
-  "name": "Daring",
-  "version": "0.1.6"
+  "name": "daring",
+  "version": "0.1.7",
+  "author": {
+    "email": "matthew@matthewlang.net"
+  },
+  "dependencies": {
+    "ghost-cli": "^1.1.2"
+  }
 }
