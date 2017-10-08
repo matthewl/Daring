@@ -138,7 +138,7 @@ nav ul li.new-nav-group {
 /*
  * Content
  */
-.page, .post {
+.page-template, .post {
   margin-bottom: 1rem;
 }
 
@@ -146,7 +146,7 @@ article.post-index {
   margin-bottom: 4rem;
 }
 
-.page > header, .post > header {
+.page-template > header, .post > header {
   margin-bottom: 1rem;
 }
 
