@@ -10,6 +10,7 @@ Daring is based on the excellent [Poole](http://getpoole.com) by [Mark Otto](htt
 ## Contents
 
 - [Usage](#usage)
+- [People using Daring](#people-using-daring)
 - [Author](#author)
 - [License](#license)
 
@@ -20,10 +21,31 @@ Daring is built on top of [Poole](https://github.com/poole/poole), which provide
 
 To download, visit the [releases](https://github.com/matthewl/Daring/releases) page.
 
+Daring contains pre-built themes for the following colours:
+
+- Red
+- Orange
+- Green
+- Purple
+- Brown
+- Blue
+
+Each of these pre-built themes can be found in the `themes` folder.
+
+Simply, upload the compressed theme that you want to use to Ghost and activate it.
+
+
+## People using Daring
+
+Create a pull request and include your own blog if you're using Daring.
+
+- [Matthew Lang](https://www.matthewlang.net)
+
 
 ## Author
 
 **Matthew Lang**
+- <https://www.matthewlang.net>
 - <https://github.com/matthewl>
 - <https://twitter.com/matthewlang>
 
