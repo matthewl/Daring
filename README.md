@@ -34,14 +34,6 @@ Each of these pre-built themes can be found in the `themes` folder.
 
 Simply, upload the compressed theme that you want to use to Ghost and activate it.
 
-
-## People using Daring
-
-Create a pull request and include your own blog if you're using Daring.
-
-- [Matthew Lang](https://www.matthewlang.net)
-
-
 ## Author
 
 **Matthew Lang**
