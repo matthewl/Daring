@@ -1,3 +1,6 @@
+**NO LONGER MAINTAINED** I'm no longer maintaing this project having moved my blog to Jekyll. The last version this theme was tested against Ghost was version 1.00.
+
+
 # Daring
 
 Inspired by John Gruber's [Daring Fireball](http://daringfireball.net) link blog, Daring is a similar theme for users of Ghost. It favours text over images and doesn't handle cover images or post images in Ghost.
