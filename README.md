@@ -1,5 +1,6 @@
-**NO LONGER MAINTAINED** I'm no longer maintaing this project having moved my blog to Jekyll. The last version this theme was tested against Ghost was version 1.00.
+### Daring is now maintained by [Brandon Istenes](https://github.com/brandones/Daring) on Github.
 
+**NO LONGER MAINTAINED** I'm no longer maintaing this project having moved my blog to Jekyll. The last version this theme was tested against Ghost was version 1.00.
 
 # Daring
 
